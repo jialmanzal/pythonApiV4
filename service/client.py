@@ -16,7 +16,7 @@ class Client():
         if p_index >= len(self.preexistence):
             return 'There is no such preexistence'
         else:
-            return self.preexistence[pIndex]
+            return self.preexistence[p_index]
 
     def get_all_preexistence(self):
         return self.preexistence
